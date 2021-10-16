@@ -15,7 +15,7 @@ var highscore = 15;
 
 let que = [
   {
-        "id":"1",
+        "id":1,
         "question":"Name the citizen centric government portal for missing children which was launched in July 2015.",
         "optionA":"(A) Dindia portla",
         "optionB":"(B) Mahi portal",
@@ -25,7 +25,7 @@ let que = [
         "CorrectOption":"D"
     },
     {
-        "id":"2",
+        "id":2,
         "question":"Which government platform facilitates proactive release of datasets in an open format by ministries/ departments?",
         "optionA":"(A) data.gov.in",
         "optionB":"(B) digitalguj.in",
@@ -34,7 +34,7 @@ let que = [
         "Answer": "(A) data.gov.in",
         "CorrectOption":"A"
     },{
-        "id":"3",
+        "id":3,
         "question":"What is the total number of Mission Mode Projects under Digital India (as of 1-March-2016)",
         "optionA":"(A) 50",
         "optionB":"(B) 45",
@@ -43,7 +43,7 @@ let que = [
         "Answer": "(c) 44",
         "CorrectOption":"c"
     },{
-        "id": "4",
+        "id": 4,
         "question":"Public Internet Access Programme aims to cover how many Gram Panchayats through CSCs?",
         "optionA":"(A) 10,000",
         "optionB":"(B) 50,000",
@@ -52,7 +52,7 @@ let que = [
         "Answer":"(c) 2,50,000 ",
         "CorrectOption":"c"
     },{
-        "id":"5",
+        "id":5,
         "question":"Which city is also known as the Diamond City of India?",
         "optionA":"(A) Rajkot",
         "optionB":"(B) Surat",
@@ -62,7 +62,7 @@ let que = [
         "CorrectOption":"B" 
     },
     {
-        "id":"6",
+        "id":6,
         "question":"What is the total number of digits in Aadhaar?",
         "optionA":"(A) 10",
         "optionB":"(B) 09",
@@ -71,7 +71,7 @@ let que = [
         "Answer": "(c) 12",
         "CorrectOption":"c"
     },{
-        "id":"7",
+        "id":7,
         "question":"Name the mobile governance initiative of the Government of India",
         "optionA":"(A) Digital seva",
         "optionB":"(B) mobile app",
@@ -80,7 +80,7 @@ let que = [
         "Answer": "(D) Mobile Seva",
         "CorrectOption":"D"
     },{
-        "id": "8",
+        "id": 8,
         "question":"Name the cloud initiative of the Government of India.",
         "optionA":"(A) vishnu",
         "optionB":"(B) MeghRaj",
@@ -89,7 +89,7 @@ let que = [
         "Answer":"(B)  MeghRaj",
         "CorrectOption":"B"
     },{
-      "id":"9",
+      "id":9,
       "question":"Which government project aims to link all universities in India through a high-speed network?",
       "optionA":"(A) National Knowledge Network",
       "optionB":"(B) india knoweledge",
@@ -98,7 +98,7 @@ let que = [
       "Answer":"(A)National Knowledge Network",
       "CorrectOption":"A"
     },{
-      "id":"10",
+      "id":10,
       "question":"How many languages are available on Aarogya Setu app?",
       "optionA":"(A) 7",
       "optionB":"(B) 11",
@@ -107,7 +107,7 @@ let que = [
       "Answer":"(C) 12",
       "CorrectOption":"C"
     },{
-      "id":"11",
+      "id":11,
       "question":"Name the two portals/websites where Indian citizens can maintain all vehicular documents as digital documents?",
       "optionA":"(A) DigiLocker & mParivahan",
       "optionB":"(B) myindia",
@@ -116,7 +116,7 @@ let que = [
       "Answer":"(A)  DigiLocker & mParivahan",
       "CorrectOption":"A"
     },{
-      "id":"12",
+      "id":12,
       "question":" What is the name of the new feature of BHIM-UPI app that enables all users to make your recurring payments easily?",
       "optionA":"(A) GATWAY",
       "optionB":"(B) UPI AUTOPAY",
@@ -125,7 +125,7 @@ let que = [
       "Answer":"(B) UPI AUTOPAY",
       "CorrectOption":"B"
     },{
-      "id":"13",
+      "id":13,
       "question":"What is the name of the mobile app launched recently by IPPB to provide digital financial and assisted banking services by India Post and IPPB through the postal network across the country?",
       "optionA":"(A) Arogya setu",
       "optionB":"(B) UPDI",
@@ -134,7 +134,7 @@ let que = [
       "Answer":"(C)  DakPay",
       "CorrectOption":"C"
     },{
-      "id":"14",
+      "id":14,
       "question":" Name the newly developed online portal by Indian Railways to promote and develop the railways’ freight business?",
       "optionA":"(A) GOIS",
       "optionB":"(B) DOIS",
@@ -143,7 +143,7 @@ let que = [
       "Answer":"(C) FOIS",
       "CorrectOption":"C"
     },{
-      "id":"15",
+      "id":15,
       "question":"APY full form",
       "optionA":"(A) Application of Pension Yojna",
       "optionB":"(B) None",
@@ -152,7 +152,7 @@ let que = [
       "Answer":"(D) Atal Pension Yojana",
       "CorrectOption":"D"
     },{
-      "id":"16",
+      "id":16,
       "question":"eSanjeevani OPD, the National Teleconsultation Service of Ministry of Health & Family Welfare is operational in how many Indian States/UTs?",
       "optionA":"(A) 19",
       "optionB":"(B) 20",
@@ -161,7 +161,7 @@ let que = [
       "Answer":"(C) 31",
       "CorrectOption":"C"
     },{
-      "id":"17",
+      "id":17,
       "question":" What is the name of the web-enabled patient management system for Tuberculosis control under NTEP?",
       "optionA":"(A) KISHAN",
       "optionB":"(B) NP-CANCER",
@@ -170,7 +170,7 @@ let que = [
       "Answer":"(C) NI-KSHAY",
       "CorrectOption":"C"
     },{
-      "id":"18",
+      "id":18,
       "question":"AEPS full form:",
       "optionA":"(A) Aambedkar e-Payment System",
       "optionB":"(B) Aambedkar enabled Payment System",
@@ -179,7 +179,7 @@ let que = [
       "Answer":"(D) Aadhaar enabled Payment System",
       "CorrectOption":"D"
     },{
-      "id":"19",
+      "id":19,
       "question":" Digital Identity cards of which force have been made available recently on Digilocker?",
       "optionA":"(A) NDRF",
       "optionB":"(B) MCNL",
@@ -188,7 +188,7 @@ let que = [
       "Answer":"(A) NDRF",
       "CorrectOption":"A"
     },{
-      "id":"20",
+      "id":20,
       "question":"UMANG app is available in how many languages?",
       "optionA":"(A) 20 Languages",
       "optionB":"(B) 13 Languages",
