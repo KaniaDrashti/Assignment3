@@ -13,43 +13,43 @@ let inverse = chalk.inverse
 var score = 0;
 var highscore = 15;
 
-let questions = [
+let questions =[
   {
-        "id":1,
-        "question":"Name the citizen centric government portal for missing children which was launched in July 2015.",
-        "optionA":"(A) Dindia portla",
-        "optionB":"(B) Mahi portal",
-        "optionC":"(C) ambedkar",
-        "optionD":"(D) Khoya Paya Portal",
-        "Ans": "(D) Khoya Paya Portal",
+        id:"1",
+        question:"Name the citizen centric government portal for missing children which was launched in July 2015.",
+        optionA:"(A) Dindia portla",
+        optionB:"(B) Mahi portal",
+        optionC:"(C) ambedkar",
+        optionD:"(D) Khoya Paya Portal",
+        Ans: "(D) Khoya Paya Portal",
        // "CorrectOption":"D"
     },
     {
-        "id":2,
-        "question":"Which government platform facilitates proactive release of datasets in an open format by ministries/ departments?",
-        "optionA":"(A) data.gov.in",
-        "optionB":"(B) digitalguj.in",
-        "optionC":"(C) smartgujat.in",
-        "optionD":"(D) greencity.com",
-        "Ans": "(A) data.gov.in",
+        id:"2",
+        question:"Which government platform facilitates proactive release of datasets in an open format by ministries/ departments?",
+        optionA:"(A) data.gov.in",
+        optionB:"(B) digitalguj.in",
+        optionC:"(C) smartgujat.in",
+        optionD:"(D) greencity.com",
+        Ans: "(A) data.gov.in",
        // "CorrectOption":"A"
     },{
-        "id":3,
-        "question":"What is the total number of Mission Mode Projects under Digital India (as of 1-March-2016)",
-        "optionA":"(A) 50",
-        "optionB":"(B) 45",
-        "optionC":"(C) 44",
-        "optionD":"(D) 22",
-        "Ans": "(c) 44",
+        id:"3",
+        question:"What is the total number of Mission Mode Projects under Digital India (as of 1-March-2016)",
+        optionA:"(A) 50",
+        optionB:"(B) 45",
+        optionC:"(C) 44",
+        optionD:"(D) 22",
+        Ans: "(c) 44",
         //"CorrectOption":"c"
     },{
-        "id": 4,
-        "question":"Public Internet Access Programme aims to cover how many Gram Panchayats through CSCs?",
-        "optionA":"(A) 10,000",
-        "optionB":"(B) 50,000",
-        "optionC":"(C) 2,50,000",
-        "optionD":"(D) 1,50,050",
-        "Ans":"(c) 2,50,000 ",
+        id:"4",
+        question:"Public Internet Access Programme aims to cover how many Gram Panchayats through CSCs?",
+        optionA:"(A) 10,000",
+        optionB:"(B) 50,000",
+        optionC:"(C) 2,50,000",
+        optionD:"(D) 1,50,050",
+        Ans:"(c) 2,50,000 ",
         //"CorrectOption":"c"
     },{
         "id":5,
@@ -209,10 +209,10 @@ log(yellow("+5"), "Point For Correct Answer.....", yellow("-2"), "Point For Wron
 
 for (q of questions) {
   log(yellow(q.no + ': ' + q.question));
-  log(cyan('A' + q.A));
-  log(cyan('B' + q.B));
-  log(cyan('C' + q.C));
-  log(cyan('D' + q.D));
+  log(cyan('optionA' + q.A));
+  log(cyan('optionB' + q.B));
+  log(cyan('optionC' + q.C));
+  log(cyan('optionD' + q.D));
 
   //input answer
   var answer = rs.question('Answer : ');
