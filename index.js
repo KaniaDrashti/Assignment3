@@ -209,10 +209,10 @@ log(yellow("+5"), "Point For Correct Answer.....", yellow("-2"), "Point For Wron
 
 for (q of questions) {
   log(yellow(q.no + ': ' + q.question));
-  log(cyan('optionA' + q.A));
-  log(cyan('optionB' + q.B));
-  log(cyan('optionC' + q.C));
-  log(cyan('optionD' + q.D));
+  log(cyan('optionA' + q.optionA));
+  log(cyan('optionB' + q.optionB));
+  log(cyan('optionC' + q.optionC));
+  log(cyan('optionD' + q.optionD));
 
   //input answer
   var answer = rs.question('Answer : ');
