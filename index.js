@@ -199,7 +199,7 @@ let que = [
     },
 ];
 
-log(cyan("Welcome to the..."), title("WhatsApp Security ...\n"))
+log(cyan("Welcome to the "), title("Digital india.\n"))
 let user = rs.question("Please Enter Your Name : ")
 log(yellow(`Hello ${user}`))
 
