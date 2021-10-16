@@ -21,8 +21,8 @@ let questions = [
         "optionB":"(B) Mahi portal",
         "optionC":"(C) ambedkar",
         "optionD":"(D) Khoya Paya Portal",
-        "Answer": "(D) Khoya Paya Portal",
-        "CorrectOption":"D"
+        "Ans": "(D) Khoya Paya Portal",
+       // "CorrectOption":"D"
     },
     {
         "id":2,
@@ -31,8 +31,8 @@ let questions = [
         "optionB":"(B) digitalguj.in",
         "optionC":"(C) smartgujat.in",
         "optionD":"(D) greencity.com",
-        "Answer": "(A) data.gov.in",
-        "CorrectOption":"A"
+        "Ans": "(A) data.gov.in",
+       // "CorrectOption":"A"
     },{
         "id":3,
         "question":"What is the total number of Mission Mode Projects under Digital India (as of 1-March-2016)",
@@ -40,8 +40,8 @@ let questions = [
         "optionB":"(B) 45",
         "optionC":"(C) 44",
         "optionD":"(D) 22",
-        "Answer": "(c) 44",
-        "CorrectOption":"c"
+        "Ans": "(c) 44",
+        //"CorrectOption":"c"
     },{
         "id": 4,
         "question":"Public Internet Access Programme aims to cover how many Gram Panchayats through CSCs?",
@@ -49,8 +49,8 @@ let questions = [
         "optionB":"(B) 50,000",
         "optionC":"(C) 2,50,000",
         "optionD":"(D) 1,50,050",
-        "Answer":"(c) 2,50,000 ",
-        "CorrectOption":"c"
+        "Ans":"(c) 2,50,000 ",
+        //"CorrectOption":"c"
     },{
         "id":5,
         "question":"Which city is also known as the Diamond City of India?",
@@ -58,8 +58,8 @@ let questions = [
         "optionB":"(B) Surat",
         "optionC":"(C) Gandhinagar",
         "optionD":"(D) Ahmedabad",
-        "Answer": "(B) Surat",
-        "CorrectOption":"B" 
+        "Ans": "(B) Surat",
+        //"CorrectOption":"B" 
     },
     {
         "id":6,
@@ -68,8 +68,8 @@ let questions = [
         "optionB":"(B) 09",
         "optionC":"(C) 12",
         "optionD":"(D) 18",
-        "Answer": "(c) 12",
-        "CorrectOption":"c"
+        "Ans": "(c) 12",
+        //"CorrectOption":"c"
     },{
         "id":7,
         "question":"Name the mobile governance initiative of the Government of India",
@@ -77,8 +77,8 @@ let questions = [
         "optionB":"(B) mobile app",
         "optionC":"(C) samrt app",
         "optionD":"(D) Mobile Seva",
-        "Answer": "(D) Mobile Seva",
-        "CorrectOption":"D"
+        "Ans": "(D) Mobile Seva",
+        //"CorrectOption":"D"
     },{
         "id": 8,
         "question":"Name the cloud initiative of the Government of India.",
@@ -86,8 +86,8 @@ let questions = [
         "optionB":"(B) MeghRaj",
         "optionC":"(C) gujgov",
         "optionD":"(D) cloudGi",
-        "Answer":"(B)  MeghRaj",
-        "CorrectOption":"B"
+        "Ans":"(B)  MeghRaj",
+        //"CorrectOption":"B"
     },{
       "id":9,
       "question":"Which government project aims to link all universities in India through a high-speed network?",
@@ -95,8 +95,8 @@ let questions = [
       "optionB":"(B) india knoweledge",
       "optionC":"(C) gov knoweledge network",
       "optionD":"(D) learn knoweledge",
-      "Answer":"(A)National Knowledge Network",
-      "CorrectOption":"A"
+      "Ans":"(A)National Knowledge Network",
+      //"CorrectOption":"A"
     },{
       "id":10,
       "question":"How many languages are available on Aarogya Setu app?",
@@ -104,8 +104,8 @@ let questions = [
       "optionB":"(B) 11",
       "optionC":"(C) 12",
       "optionD":"(B) 20",
-      "Answer":"(C) 12",
-      "CorrectOption":"C"
+      "Ans":"(C) 12",
+      //"CorrectOption":"C"
     },{
       "id":11,
       "question":"Name the two portals/websites where Indian citizens can maintain all vehicular documents as digital documents?",
@@ -113,8 +113,8 @@ let questions = [
       "optionB":"(B) myindia",
       "optionC":"(C) smartcity",
       "optionD":"(D) digitalIT",
-      "Answer":"(A)  DigiLocker & mParivahan",
-      "CorrectOption":"A"
+      "Ans":"(A)  DigiLocker & mParivahan",
+      //"CorrectOption":"A"
     },{
       "id":12,
       "question":" What is the name of the new feature of BHIM-UPI app that enables all users to make your recurring payments easily?",
@@ -122,8 +122,8 @@ let questions = [
       "optionB":"(B) UPI AUTOPAY",
       "optionC":"(C) GPAY",
       "optionD":"(D) None of the above",
-      "Answer":"(B) UPI AUTOPAY",
-      "CorrectOption":"B"
+      "Ans":"(B) UPI AUTOPAY",
+      //"CorrectOption":"B"
     },{
       "id":13,
       "question":"What is the name of the mobile app launched recently by IPPB to provide digital financial and assisted banking services by India Post and IPPB through the postal network across the country?",
@@ -131,8 +131,8 @@ let questions = [
       "optionB":"(B) UPDI",
       "optionC":"(C)  DakPay",
       "optionD":"(D) All of above",
-      "Answer":"(C)  DakPay",
-      "CorrectOption":"C"
+      "Ans":"(C)  DakPay",
+     // "CorrectOption":"C"
     },{
       "id":14,
       "question":" Name the newly developed online portal by Indian Railways to promote and develop the railways’ freight business?",
@@ -140,8 +140,8 @@ let questions = [
       "optionB":"(B) DOIS",
       "optionC":"(C) FOIS",
       "optionD":"(D) A and c",
-      "Answer":"(C) FOIS",
-      "CorrectOption":"C"
+      "Ans":"(C) FOIS",
+      //"CorrectOption":"C"
     },{
       "id":15,
       "question":"APY full form",
@@ -149,8 +149,8 @@ let questions = [
       "optionB":"(B) None",
       "optionC":"(C) Avas Pension Yojna",
       "optionD":"(D) Atal Pension Yojana",
-      "Answer":"(D) Atal Pension Yojana",
-      "CorrectOption":"D"
+      "Ans":"(D) Atal Pension Yojana",
+      //"CorrectOption":"D"
     },{
       "id":16,
       "question":"eSanjeevani OPD, the National Teleconsultation Service of Ministry of Health & Family Welfare is operational in how many Indian States/UTs?",
@@ -158,8 +158,8 @@ let questions = [
       "optionB":"(B) 20",
       "optionC":"(C) 31",
       "optionD":"(D) 41",
-      "Answer":"(C) 31",
-      "CorrectOption":"C"
+      "Ans":"(C) 31",
+      //"CorrectOption":"C"
     },{
       "id":17,
       "question":" What is the name of the web-enabled patient management system for Tuberculosis control under NTEP?",
@@ -167,8 +167,8 @@ let questions = [
       "optionB":"(B) NP-CANCER",
       "optionC":"(C) NI-KSHAY",
       "optionD":"(D) All of above",
-      "Answer":"(C) NI-KSHAY",
-      "CorrectOption":"C"
+      "Ans":"(C) NI-KSHAY",
+      //"CorrectOption":"C"
     },{
       "id":18,
       "question":"AEPS full form:",
@@ -176,8 +176,8 @@ let questions = [
       "optionB":"(B) Aambedkar enabled Payment System",
       "optionC":"(C) Aadhaar e-Payment System",
       "optionD":"(D) Aadhaar enabled Payment System",
-      "Answer":"(D) Aadhaar enabled Payment System",
-      "CorrectOption":"D"
+      "Ans":"(D) Aadhaar enabled Payment System",
+      //"CorrectOption":"D"
     },{
       "id":19,
       "question":" Digital Identity cards of which force have been made available recently on Digilocker?",
@@ -185,8 +185,8 @@ let questions = [
       "optionB":"(B) MCNL",
       "optionC":"(C) A and b both",
       "optionD":"(D) none",
-      "Answer":"(A) NDRF",
-      "CorrectOption":"A"
+      "Ans":"(A) NDRF",
+      //"CorrectOption":"A"
     },{
       "id":20,
       "question":"UMANG app is available in how many languages?",
@@ -194,8 +194,8 @@ let questions = [
       "optionB":"(B) 13 Languages",
       "optionC":"(C) 12 Languages",
       "optionD":"(D) 11 Languages",
-      "Answer":"(B) 13 Languages",
-      "CorrectOption":"B"
+      "Ans":"(B) 13 Languages",
+      //"CorrectOption":"B"
     },
 ];
 
@@ -215,15 +215,15 @@ for (q of questions) {
   log(cyan('D: ' + q.D));
 
   //input answer
-  var ans = rs.question('Answer : ');
+  var answer = rs.question('Answer : ');
 
   //compare answer
-  if (ans.toLowerCase() === q.answer.toLowerCase()) {
+  if (answer.toLowerCase() === q.ans.toLowerCase()) {
     log(green("\n+5"), "Your Answer Is :- ", green("correct"), ".");
     score += 5;
     log("Your Current Score Is :-", green(score), "\n");
   } else {
-    log(red("+2"), "Your answer Is :-", red("incorrect"), ".");
+    log(red("-2"), "Your answer Is :-", red("incorrect"), ".");
     score -= 2;
     log("Your Current Score Is :-", red(score), "\n");
   }
