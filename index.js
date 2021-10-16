@@ -13,7 +13,7 @@ let inverse = chalk.inverse
 var score = 0;
 var highscore = 15;
 
-let que = [
+let questions = [
   {
         "id":1,
         "question":"Name the citizen centric government portal for missing children which was launched in July 2015.",
@@ -203,11 +203,11 @@ log(cyan("Welcome to the "), title("Digital india.\n"))
 let user = rs.question("Please Enter Your Name : ")
 log(yellow(`Hello ${user}`))
 
-log(blueBright("\nA Quiz from WhatsApp Security ..."))
+log(blueBright("\nA Quiz of Digital india ..."))
 log("\nThere will be 20(20) questions.....")
 log(yellow("+5"), "Point For Correct Answer.....", yellow("-2"), "Point For Wrong Answer....\n")
 
-for (q of que) {
+for (q of questions) {
   log(yellow(q.no + ': ' + q.question));
   log(cyan('A: ' + q.A));
   log(cyan('B: ' + q.B));
